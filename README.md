@@ -15,6 +15,13 @@ Configuré dos máquinas virtuales en VirtualBox sobre una red interna, para sim
 </details>
 
 ## Estructura
-Separé a los usuarios en unidades organizativas para ordenarlos por función y facilitar la gestión de accesos.
+Instalé los roles y características del Administrador del servidor para promover el servidor a controlador de dominio, separé a los usuarios en unidades organizativas para ordenarlos por función y facilitar la gestión de accesos.
+<details>
+<summary>Capturas</summary>
 
-En la unidad **Support_TI** creé la cuenta **f.ramos**, miembro del grupo **Domain Admins**.
+![Instalando el R&F al ASDS](./Images/ASDS_RF.png)
+![Configurando y Desplegando **srv.local**](./Images/CyD.png)
+
+</details>
+En la unidad **Support_TI** creé la cuenta **f.ramos**, miembro del grupo **Domain Admins** para mantener buenas practicas de seguridad y no administrar desde el **SRV\Administrator** .
+
